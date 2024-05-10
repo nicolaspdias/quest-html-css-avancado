@@ -1,0 +1,121 @@
+html{
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+body{
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: var(--primary-violet);
+    background-size: 100vh;
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px 0px 60px 140px;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img{
+    max-width: 200px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 60px;
+}
+
+.main .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main .image img{
+    max-width: 650px;
+}
+
+.main .contenent{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.main .contenent h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 4.0rem;
+    margin-top: 30px;
+
+}
+
+.main .contenent p{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.main .btn-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 80px;
+    color: var(--primary-violet);
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer; 
+}
+
+.main .btn-register:hover{
+    background-color: var(--primary-soft-magenta);
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.3s;
+}
+
+.footer{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.footer .social .fab{
+
+    font-size: 18px;
+    text-align: center;
+    color:#fff;
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social .fab:hover{
+        color: var(--primary-soft-magenta);
+        border-color: var(--primary-soft-magenta);
+
+}
