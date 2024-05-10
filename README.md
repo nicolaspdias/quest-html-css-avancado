@@ -6,7 +6,7 @@ Projeto do curso DEV Quest do DEV em Dobro, onde é criada uma página do Huddle
 - CSS
 
 ### Imagem do Projeto
-![Imagem do Projeto](./projeto-huddle-base/src/design/desktop-design.jpg)
+![Imagem do Projeto](./src/design/desktop-preview.jpg)
 
 ### Responsivo do Projeto
 ![Responsivo do Projeto](./src/design/mobile-design.jpg)
